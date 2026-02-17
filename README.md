@@ -25,6 +25,16 @@ This is the **Home Assistant integration** for [Gonzales Speed Monitor](https://
 
 The integration is a generic API client. It polls the Gonzales REST API and translates the data into native Home Assistant entities.
 
+### Gonzales Ecosystem
+
+| Repository | What it is | You need this if... |
+|-----------|------------|---------------------|
+| **[gonzales](https://github.com/akustikrausch/gonzales)** | Backend, Web Dashboard, TUI, CLI, API, MCP Server | You run Gonzales standalone (Docker, Raspberry Pi, bare metal) |
+| **[gonzales-ha](https://github.com/akustikrausch/gonzales-ha)** | Home Assistant Add-on (App) | You use HA OS/Supervised and want one-click installation |
+| **[gonzales-integration](https://github.com/akustikrausch/gonzales-integration)** | Home Assistant Integration (HACS) | You run Gonzales standalone AND want HA sensors |
+
+> **You're here!** This is the HACS integration. You need a running Gonzales server to connect to -- either the [add-on](https://github.com/akustikrausch/gonzales-ha) or a [standalone installation](https://github.com/akustikrausch/gonzales).
+
 ---
 
 ## Installation
@@ -346,6 +356,16 @@ The Ookla Speedtest CLI used by the Gonzales server is proprietary third-party s
 ## Was ist das?
 
 Dies ist die **Home Assistant Integration** fuer [Gonzales Speed Monitor](https://github.com/akustikrausch/gonzales). Sie verbindet sich mit jedem Gonzales-Server -- egal ob als [Home Assistant Add-on](https://github.com/akustikrausch/gonzales-ha) oder als eigenstaendige Installation (Docker, Raspberry Pi, etc.) -- und stellt **20+ Sensoren**, **Binaersensoren**, **Buttons** und **Services** fuer deine Automationen und Dashboards bereit.
+
+### Gonzales Ecosystem
+
+| Repository | Was es ist | Du brauchst das wenn... |
+|-----------|------------|------------------------|
+| **[gonzales](https://github.com/akustikrausch/gonzales)** | Backend, Web Dashboard, TUI, CLI, API, MCP Server | Du Gonzales standalone betreibst (Docker, Raspberry Pi, Bare Metal) |
+| **[gonzales-ha](https://github.com/akustikrausch/gonzales-ha)** | Home Assistant Add-on (App) | Du HA OS/Supervised nutzt und Ein-Klick-Installation willst |
+| **[gonzales-integration](https://github.com/akustikrausch/gonzales-integration)** | Home Assistant Integration (HACS) | Du Gonzales standalone betreibst UND HA-Sensoren willst |
+
+> **Du bist hier!** Dies ist die HACS-Integration. Du brauchst einen laufenden Gonzales-Server -- entweder das [Add-on](https://github.com/akustikrausch/gonzales-ha) oder eine [Standalone-Installation](https://github.com/akustikrausch/gonzales).
 
 Die Integration ist ein generischer API-Client. Sie pollt die Gonzales REST API und uebersetzt die Daten in native Home Assistant Entities.
 
