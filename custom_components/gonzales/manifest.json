@@ -1,0 +1,13 @@
+{
+  "domain": "gonzales",
+  "name": "Gonzales",
+  "after_dependencies": ["hassio"],
+  "codeowners": ["@akustikrausch"],
+  "config_flow": true,
+  "documentation": "https://github.com/akustikrausch/gonzales-integration",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/akustikrausch/gonzales-integration/issues",
+  "requirements": [],
+  "version": "3.10.2"
+}
